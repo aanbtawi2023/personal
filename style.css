@@ -1,0 +1,166 @@
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+}
+y .Home {
+  font-family: "heebo";
+  font-size: 16px !important;
+  line-height: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.sec1_mcont {
+  width: 100%;
+  height: 163px;
+  background-color: #efefef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec1_mnav {
+  width: 83%;
+  height: 103px;
+  background-color: #efefef;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sec1_tabs {
+  display: flex;
+  gap: 62px;
+}
+
+.sec1_tabs > div {
+  font-family: "heebo";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.sec1_logo > img {
+  width: 100%;
+  height: 100%;
+}
+
+.sec2_mcont {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  background-color: DodgerBlue;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sec2_mcont > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 40px;
+  font-size: 30px;
+}
+
+.aboutme_cont {
+  width: 33%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: red !important;
+  justify-content: space-between;
+  align-self: flex-end;
+  gap: 50px;
+}
+
+.social_icons_cont {
+  display: flex;
+  justify-content: flex-start !important;
+  background-color: aquamarine !important;
+  gap: 100px;
+}
+.mouse_icon {
+  align-self: flex-end;
+}
+
+.sec2_layout {
+  width: 87%;
+  height: 733px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 30px;
+}
+
+.sec3_mcont {
+  width: 100%;
+  height: 1080px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec3_block {
+  width: 87%;
+  height: 733px;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sec3_header {
+  width: 100%;
+  height: 120px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.sec3_header_box {
+  width: 16%;
+  height: 75px;
+  background-color: purple;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: powderblue;
+  font-family: "heebo";
+  font-size: 25px;
+  line-height: 85.84px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.sec3_header_box > div {
+  font-family: "heebo";
+  font-size: 85px;
+  line-height: 124;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.sec3_images {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: palevioletred;
+  gap: 100px;
+}
+
+.image_block {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  gap: 50px;
+  justify-content: center;
+  background-color: silver;
+  align-items: center;
+}
